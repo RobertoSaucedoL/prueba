@@ -1,8 +1,9 @@
 
+// tailwind.config.js
 module.exports = {
   content: [
     "./index.html", 
-    "./src/**/*.{js,ts,jsx,tsx}", // <--- Patrón correcto
+    "./src/**/*.{js,ts,jsx,tsx}", // Esto evita la búsqueda pesada
   ],
   // ...
 }
