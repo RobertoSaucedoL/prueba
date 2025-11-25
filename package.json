@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "./node_modules/.bin/vite build",
     "preview": "vite preview",
   "deploy": "npm run build && gh-pages -d dist -r https://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@github.com/robertosaucedol/prueba.git"
 }
